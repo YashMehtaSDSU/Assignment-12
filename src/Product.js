@@ -6,12 +6,12 @@ import ProductForm from './ProductForm';
 
 
 let PRODUCTS = {
-  '1': {id: 1, category: 'Daily Essentials', price: '$500', name: 'Healthy Treats'},
-  '2': {id: 2, category: 'Groceries', price: '$200', name: 'Vegetables/Fruits'},
-  '3': {id: 3, category: 'Electronics', price: '$1000', name: 'Headphones'},
-  '4': {id: 4, category: 'Electronics', price: '$500', name: 'Laptop'},
-  '5': {id: 5, category: 'Furniture', price: '$1,500', name: 'Chairs'},
-  '6': {id: 6, category: 'Electronics', price: '$100', name: 'Mobile Phone'},
+  '1': {id: 1, category: 'Groceries', price: '$50', name: 'Fruits'},
+  '2': {id: 2, category: 'Groceries', price: '$20', name: 'Vegetables'},
+  '3': {id: 3, category: 'Electronics', price: '$250', name: 'Airpods'},
+  '4': {id: 4, category: 'Electronics', price: '$1000', name: 'Laptop'},
+  '5': {id: 5, category: 'Furniture', price: '$200', name: 'Desk/Chair'},
+  '6': {id: 6, category: 'Electronics', price: '$30', name: 'Fan/Light'},
 };
 
 class Product extends Component {
